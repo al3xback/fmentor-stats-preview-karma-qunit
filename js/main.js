@@ -10,7 +10,7 @@ const getBodyContent = () => {
                     <article class="card">
                         <div class="card__image">
                             <div class="card__image-inner">
-                                <img src="./images/meeting.jpg" alt="" />
+                                <img src="./images/meeting.jpg" alt="People at a meeting" />
                             </div>
                         </div>
                         <div class="card__content">
