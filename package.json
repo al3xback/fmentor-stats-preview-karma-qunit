@@ -1,8 +1,7 @@
 {
 	"name": "fmentor-stats-preview-karma-qunit",
+	"private": true,
 	"version": "1.0.0",
-	"description": "stats preview card component using karma and qunit",
-	"main": "index.js",
 	"scripts": {
 		"sass-dev": "sass --watch scss/main.scss css/main.css",
 		"sass-prod": "sass scss/main.scss css/main.css --style=compressed --no-source-map",
@@ -13,16 +12,6 @@
 		"test": "karma start",
 		"build": "run-s lint sass-prod postcss"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/al3xback/fmentor-stats-preview-karma-qunit.git"
-	},
-	"author": "alex <al3xback@gmail.com>",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/al3xback/fmentor-stats-preview-karma-qunit/issues"
-	},
-	"homepage": "https://github.com/al3xback/fmentor-stats-preview-karma-qunit#readme",
 	"devDependencies": {
 		"autoprefixer": "^10.4.16",
 		"karma": "^6.4.2",
